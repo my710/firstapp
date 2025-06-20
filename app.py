@@ -18,5 +18,3 @@ def generate_hash_get():
     except ValueError:
         return jsonify({"error": "notogri algorithm"})
 
-if __name__ == '__main__':
-    app.run()
